@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: 'Metamorphous', 'Milonga', cursive;
+}
+/* NAVIGATION */
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 2;
+
+}
+.logo {
+    padding: 20px;
+    
+}
+.navigation {
+    /* border: solid red 2px; */
+    padding: 30px;
+}
+.navigation ul {
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.navigation li {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Metamorphous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: #7B7B7B;
+}
+.bflyvine {
+    margin-left: 250px;
+}
+
+/* BANNER */
+.heroImg {
+    /* border: 2px solid red; */
+    z-index: -1;
+    position: relative;
+    top: -20px;
+}
+
+/* CASESTUDIES */
+.caseStudies {
+    /* border: 2px solid red; */
+    display: flex; 
+    justify-content: space-evenly;
+}
+.studyCard {
+    margin-bottom: 100px;
+}
+
+/* ABOUT */
+.aboutSection {
+    font-family: 'Milonga', 'Metamorphous', cursive;
+}
+
+.aboutTitle {
+    margin: 70px;
+    font-family: 'Milonga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    color: #E5C964;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.aboutBoxes {
+    /* border: red 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.box {
+    /* border: green 1px solid; */
+    position: relative;
+    /* display: inline-block; */
+    margin: 70px;
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boxContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Milonga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    
+    color: #E5C964;
+    
+    /* -webkit-text-stroke: 0.5px rgba(56, 102, 109, 0.5); */
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    /* top: 100;
+    left: 0;
+    padding: 100px; */
+}
+
+/* FOOTER */
+.b2TopButton {
+    background-color: transparent;
+    border: none;
+    font-family: 'Metamorphous', 'Milonga', cursive;
+    margin: 30px;
+    font-family: 'Metamorphous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    text-align: center;
+
+    color: #7B7B7B;
+
+}
+
+footer {
+    /* border: 2px solid red; */
+}
+
+/* General */
+.center {
+    text-align: center;
+}
+.inline-block {
+    display: inline-block;
+}
+
+
+/* BACKGROUND & IMAGES */
+body {
+    background-image: url(/Images/PAPERTOP2x.jpg);
+    background-size: 70%;
+}
+/* .bflyvine {
+    position: absolute;
+    top: 0;
+    right: 200;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px; */
+
+.grass {
+    width: 100%;
+    /* border: 1px red solid; */
+    position: relative;
+    top: 35px;
+    z-index: -1;
+    
+}
+.goldBorder {
+    width: 100%;
+}
+.aboutSection {
+    background-image: url(/Images/PAPERMIDDLE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
