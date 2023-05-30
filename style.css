@@ -10,8 +10,9 @@ body {
     z-index: 2;
 
 }
-.logo {
+.logo img {
     padding: 20px;
+    width: 50%;
     
 }
 .navigation {
@@ -19,27 +20,29 @@ body {
     padding: 30px;
 }
 .navigation ul {
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
     padding: 0;
     list-style: none;
     display: flex;
 }
 .navigation li {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     font-family: 'Metamorphous';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
 
     text-align: center;
 
     color: #7B7B7B;
 }
-.bflyvine {
-    margin-left: 250px;
+.bflyvine img {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 75%;
 }
 
 /* BANNER */
@@ -48,6 +51,10 @@ body {
     z-index: -1;
     position: relative;
     top: -20px;
+    
+}
+.shBanner {
+    width: 100%;
 }
 
 /* CASESTUDIES */
@@ -128,7 +135,7 @@ body {
     font-family: 'Metamorphous';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 20px;
 
     text-align: center;
@@ -152,7 +159,7 @@ footer {
 
 /* BACKGROUND & IMAGES */
 body {
-    background-image: url(/Images/PAPERTOP2x.jpg);
+    background-image: url(Images/PAPERTOP2x.jpg);
     background-size: 70%;
 }
 /* .bflyvine {
@@ -179,7 +186,7 @@ body {
     width: 100%;
 }
 .aboutSection {
-    background-image: url(/Images/PAPERMIDDLE.jpg);
+    background-image: url(Images/PAPERMIDDLE.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
