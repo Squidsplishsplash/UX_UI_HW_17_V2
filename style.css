@@ -12,7 +12,7 @@ body {
 }
 .logo img {
     padding: 20px;
-    width: 100%;
+    width: 50%;
     
 }
 .navigation {
@@ -42,7 +42,7 @@ body {
 .bflyvine img {
     margin-left: 20px;
     margin-right: 20px;
-    width: 75%;
+    width: 50%;
 }
 
 /* BANNER */
@@ -54,7 +54,7 @@ body {
     
 }
 .shBanner {
-    width: 25%;
+    width: 100%;
 }
 
 /* CASESTUDIES */
